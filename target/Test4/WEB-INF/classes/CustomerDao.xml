@@ -7,7 +7,6 @@
     <!--配置Dao实现类中的 jdbcTemplate 做（增删改查） 操作对象属性 添加进IOC容器-->
     <bean id = "CustomerDao" class="com.ithema.dao.CustomerDaoImpl">
         <property name="jdbcTemplate" ref="jdbcTemplate"></property>
-
     </bean>
     <!--把数据源的4个属性，添加进jdbcTemplate对象中-->
     <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
@@ -22,6 +21,5 @@
         <property name="password" value="${jdbc.password}"/>
     </bean>
     <context:component-scan base-package="com.ithema" />
-
     <context:property-placeholder location="classpath:db.properties"/><!-- 加载配置文件 -->
 </beans>

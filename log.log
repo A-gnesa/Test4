@@ -1,0 +1,22 @@
+org.apache.ibatis.logging.LogFactory 2021-05-17 11:54:48  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-05-17 11:54:49  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-05-17 11:54:49  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-05-17 11:54:49  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-05-17 11:54:49  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction 2021-05-17 11:54:49  Opening JDBC Connection 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-05-17 11:54:50  Created connection 701141022. 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction 2021-05-17 11:54:50  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@29ca901e] 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-05-17 11:54:50  ==>  Preparing: select * from t_customer where id = ?  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-05-17 11:54:50  ==> Parameters: 1(Integer) 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-05-17 11:54:51  <==      Total: 1 
+org.apache.ibatis.logging.LogFactory 2021-05-17 11:55:21  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-05-17 11:55:21  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-05-17 11:55:21  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-05-17 11:55:21  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-05-17 11:55:21  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction 2021-05-17 11:55:21  Opening JDBC Connection 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-05-17 11:55:22  Created connection 701141022. 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction 2021-05-17 11:55:22  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@29ca901e] 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-05-17 11:55:22  ==>  Preparing: select * from t_customer where id = ?  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-05-17 11:55:22  ==> Parameters: 1(Integer) 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-05-17 11:55:22  <==      Total: 1 

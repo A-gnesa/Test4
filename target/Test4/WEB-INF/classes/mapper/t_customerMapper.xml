@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+
+<mapper namespace="com.ithema.po.Customer">
+    <select id="findCustomerByID" resultType="com.ithema.po.Customer" parameterType="Integer">
+        select * from t_customer where id = #{id}
+    </select>
+<!--    <resultMap id="findCustomerByIDResult" type="com.po.Customer">-->
+<!--        <id column="id" property="id"/>-->
+<!--        <result property="username" column="username"/>-->
+<!--        <result property="jobs" column="jobs"/>-->
+<!--        <result property="phone" column="phone"/>-->
+<!--        <collection property="ordersList" column="id" ofType="com.po.Orders"-->
+<!--                    select="com.po.Orders.findOrdersWithGoods">-->
+<!--        </collection>-->
+<!--    </resultMap>-->
+<!--    <select id="findCustomerByOrders" resultMap="findCustomerByIDResult" parameterType="com.po.Orders">-->
+<!--        select * from t_customer where id = (select customer_id  from t_orders where oid = #{id});-->
+<!--    </select>-->
+</mapper>
+
+

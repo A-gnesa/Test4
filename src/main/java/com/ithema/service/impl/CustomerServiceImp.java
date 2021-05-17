@@ -19,8 +19,6 @@ public class CustomerServiceImp implements CustomerService {
     CustomerDao customerDao;
     @Override
     public Customer selectOneByID(Integer id) {
-        ApplicationContext ac = new ClassPathXmlApplicationContext("CustomerDao.xml");
-        customerDao = ac.getBean("CustomerDao",CustomerDaoImpl.class);
         return customerDao.selectOneCustomerByID(id);
     }
 }
